@@ -1,0 +1,288 @@
+1.What is EAI ?
+Ans:EAI or Enterprise Applications Integration can be defined as data that can be integrated from disparate applications regardless of the platform, allowing the sharing of business processes amongst multiple organizations. 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2.What are the Major categories of EAI?
+Ans:Integration can be at different application layers: 
+
+Data Level Integration: 
+Batch data transfer, OR 
+On-line propagation of data updates 
+
+API Level Integration: 
+Data is accessed through published API services 
+
+Service Method Level Integration:
+Common services shared by different applications 
+User Interface Level Integration:The controller reacts to the user input. It creates and sets the model. 
+Common user interface (e.g. web based) for unified access to multiple applications.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+3.What are the Advantages of EAI?
+Ans:Advantages of EAI solutions are: 
+Streamlines business processes and helps raise organizational efficiency. 
+Real time information access among systems. 
+Maintains information integrity across multiple systems. 
+Speedier transactions at reduced costs. 
+If one of the applications misbehaves and requires to be shut down for maintenance, then with EAI, we can easily “decouple” it from rest of the systems. Which avoids having to bring down other systems.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4.What are the disadvantages of EAI?
+Ans:The main disadvatages of using EAI systems: 
+Constant change: The very nature of EAI is dynamic and requires dynamic project managers to manage their implementation. 
+Lack of EAI experts : EAI requires knowledge of many issues and technical aspects. 
+EAI is a tool paradigm: EAI is not a tool, but rather a system and should be implemented as such. 
+Building interfaces is an art : Engineering the solution is not sufficient. Solutions need to be negotiated with user departments to reach a common consensus on the final outcome. A lack of consensus on interface designs leads to excessive effort to map between various systems data requirements. 
+Loss of detail : Information that seemed unimportant at an earlier stage may become crucial later. 
+Accountability : Since so many departments have many conflicting requirements, there should be clear accountability for the system's final structure. 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+5.What are the main companies which provide EAI tools / software?
+Ans:TIBCO 
+webMethods 
+Vitria 
+iPlanet 
+MQSeries (IBM) 
+iPlanet 
+BizTalk (Microsoft) 
+WebLogic (BEA) 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+6.What is webMethods?
+Ans:A company that provides integration tools.
+The key products include Integration Server, Enterprise Server, Business Integrator, Workflow and Mainframe Integration Server.
+webMethods is a company, not a product. 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+7.What are the modules of webMethods Product Suite?
+Ans:Integration and B2B 
+Service Oriented Architecture 
+Business Process Management 
+Business Activity Monitoring 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+8.What are the tools of webMethods Integration ?
+Ans:webMethods Adapters 
+webMethods Developer 
+webMethods Integration Server 
+webMethods Integration Platform 
+webMethods Broker 
+webMethods Monitor 
+webMethods Optimize for Infrastructure 
+webMethods Trading Networks 
+webMethods EDI Module 
+webMethods EDIINT 
+webMethods eStandards Modules 
+webMethods PIM 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+9.What Is Developer?
+Ans:webMethods Developer is a graphical development tool that you use to build, edit, and test integration logic.
+It provides an integrated development environment in which to develop the logic and supporting objects that carry out the work of an integration solution.
+It also provides tools for testing and debugging the solutions you create.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+10.What Is an Element?
+Ans:An element is an item that exists in the Navigation panel in webMethods Developer.
+Elements include folders, services, specifications, IS document types, triggers, and ISschemas.
+In the Navigation panel, servers and packages are not considered to be elements.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+11.What is RESTFUL services ?
+Answer:While REST stands for Representational State Transfer, which is an architectural style for networked hypermedia applications, it is primarily used to build Web services that are lightweight, maintainable, and scalable. A service based on REST is called a RESTful service.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+11.What Is an Element?
+Ans:An element is an item that exists in the Navigation panel in webMethods Developer.
+Elements include folders, services, specifications, IS document types, triggers, and ISschemas.
+In the Navigation panel, servers and packages are not considered to be elements.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+12.What Is a Startup Service?
+Ans:A startup service is one that Integration Server automatically executes when it loads a package into memory.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+13.What Is a Flow Service?
+Ans:A flow service is a service that is written in the webMethods flow language.
+This simple yet powerful language lets you encapsulate a sequence of services within a single service and manage the flow of data among them.
+
+14.What Is the Pipeline?
+Ans:The pipeline is the general term used to refer to the data structure in which input and output values are maintained for a flow service. It allows services in the flow to share data.
+The pipeline starts with the input to the flow service and collects inputs and outputs from subsequent services in the flow.
+When a service in the flow executes, it has access to all data in the pipeline at that point.
+
+15.How to invoke a service from a browser ?
+Ans:Use a URL in the form:
+http://servername:port/invoke/folder.subFolder.subsubFolder/serviceName (the package name is not part of the URL in any way) 
+
+Question 15. What Happens When The Pub.flow:tracepipeline Service Is Invoked?
+Answer :
+The Integration Server logs the name-value pairs in the pipeline at that time
+ 
+Question 16. When Creating A Branch Flow Element, What Is The Purpose Of The "scope" Field On The Properties Tab?
+Answer :
+To restrict pipeline access to only the data in this document
+ 
+Question 17. What Is The Primary Function Of The Built-in Pub.flow:savepipeline Service?
+Answer :
+Save the current pipeline to a named memory location on the Integration Server
+ 
+
+Question 18. When You Create And Save The Flow "my.pack:myflow" In The "mypack" Package, Where Will You Find The Code?
+Answer :
+In the "MyPacknsmypackmyFlowflow.xml" file
+ 
+
+Question 19. What Is The Branch Operation?
+Answer :
+Branch operation conditionally executes an operation based on the value of a variable at run time
+
+Question 20. What Is The Default Behaviour, If A Flow Exit Does Not Specify A "from"?
+Answer :
+$loop will be assumed, and a com.wm.lang.flow.FlowException will be thrown if the EXIT is not in a LOOP 
+ 
+
+Question 21. An Integration Server Package May Have One Or More Startup Services. When Does A Startup Service Execute?
+Answer :
+Whenever the package is loaded or re-loaded
+
+Question 22. By Default, The Webmethods Integration Server Has An Http Listener Assigned To Which Port?
+Answer :
+The Port is 5555
+
+Question 23. How Can The Webmethods Integration Server Logging Date Format Be Changed?
+Answer :
+By editing the watt.server.dateStampFmt parameter in the server.cnf file
+ 
+
+Question 24. When Coding Is Services, How Can A Variable Of Type Document Type Be Represented In Java?
+Answer :
+Variable of type Document Type be represented as "IData "
+ 
+
+Question 25. When Creating Flow Services, What Is The Purpose Of A Sequence Operation?
+Answer :
+The purpose of Sequence operation is to group a subset of Flow operations so that they are treated as a unit.
+
+Question 26. If The Webmethods Integration Server Is Started With From The Server Root Directory With This Command, "binserver.bat -debug 9 -log None", What Does This Tell The Server To Do?
+Answer :
+Start in level 9 debug mode and write all server log information to the screen.
+
+
+Question 27. What Is The Default Behavior If A Flow Exit Does Not Specify A "from"?
+Answer :
+The EXIT will throw an java.lang.NullPointerException.
+JMS(Java Message Service) 
+
+Question 28. After A Default Installation, In Order To Use The Pub.file:getfile Service, What Needs To Be Done?
+Answer :
+pub.file:getFile does not require any modifications to the Integration Server.
+
+Question 29. How To Use Sequence As The Target Of A Branch?
+Answer :
+Set evaluate label property of branch step to true. Then set the label property of sequence with the value on which it needs to be processed.
+
+Question 30. How To Restore A Session On A Server?
+Answer :
+Developer gets disconnected from the server if the server goes down or if there is a problem in the network. Donot close the developer.If you close the developer you wont be able to save the changes.Once the server come up or the network problem is resolved. you will be automatically connected to the server and then you can retsore your session.
+
+Question 31. How To Open A Session On A Different Server?
+Answer :
+Select "session" from the menu in toolbar and click open. key in the server IP and port on which you have to open the connection.The user name and password on that server.
+
+Question 32. How Acls Affect Locking?
+Answer :
+ACLS are used to give the authorization to the particular user groups.If u give ACL to administrator then the admin group users who are there in that group they can have the acess to that particular service.Otherwise we can not use it.This is called ACL locking.
+
+Question 33. How To Change The Order Of Steps In A Flow Service?
+Answer :
+We can change the Order of steps in a Flow Service of Various other services which are called in sequence within Flow service using "Shift Up and Shift Down" buttons exists at top of Editor Panel.
+As well we can move any service or Map inside a SEQUENCE or BRANCH using "Shift Left and Shift Right" buttons
+ 
+
+Question 34. When And Why Should We Use Transformers And Flow Services? How Are They Different From Each Other?
+Answer :
+Mapping is the process of performing transformations to resolve data representation differences between services or document formats. By linking variables to each other on the Pipeline tab, you can accomplish name transformations and structural transformations. However, to perform value transformations you must execute some code or logic. 
+Developer provides two ways for you to invoke services: You can insert INVOKE steps or you can insert transformers onto the Pipeline tab. Transformers are the services you use to accomplish value transformations on the Pipeline tab.
+
+Question 35. What Are Structural Transformations?
+Answer :
+Splitting one field into several or merging fields, reordering portions of a message or renaming fields are know as structural transformations
+
+Question 36. How To Move Flow Steps?
+Answer :
+Open the webMethods developer in EditPrespective.Select the flow step u wanna move just drag it to the place u want to move.Otherwise use the arrow buttons on the editor pannel to move the selected flow steps.
+
+Question 37. How To Remove A System Lock From An Element?
+Answer :
+System locks can be removed by making the server side files of the element as redable.right Click on the elemet in developer which is system locked.and choose the lock properties. It will display the server side files for the element.Make the files as readable and click the referesh button in the developer.You will find that the element is no more locked.
+
+Question 38. How To Find Elements In The Navigation Panel?
+Answer :
+Just right click on the element ehich u want to see then u click Locate in navigation option then u can see that element in the navigation panel
+
+Question 39. How To Find Dependants Of A Selected Element On The Server?
+Answer :
+Right click on the element for which you have to find the dependents in the navigational pannel.and click on the option find dependents.
+
+Question 40. How Do I Change The Jvm Used By Integration Server?
+Answer :
+To change to the JDK used by webMethods you will need to edit the IntegrationServerbinserver.bat or IntegrationServer/bin/server.sh file used to start up Integration Server.
+Edit the file and change the following line to point to the JDK path 
+SET JAVA_DIR=C:optj2sdk1.4.2
+ 
+Question 41. How Do I Debug The Developer Ide Itself?
+Answer :
+Start the developer up in debug mode, similar to the Integration server:
+cd pathToWMInstall/Developer/bin
+developer.bat -debug 10
+
+Question 42. What Is The Difference Between Drop And Delete Pipeline Variable?
+Answer :
+Drop pipeline is an explicit cleanup. It is a request for the pipeline to remove a variable from the available list of variables and make the object it refers to available for garbage collection by the Java Virtual Machine.
+Delete is purely a design time operation to remove the variable from the current view. It is only of use if you have created a variable that you didn't mean to create. If you delete a variable that was there because it was previously in the pipeline when you change the view in developer you will see the variable appear again.
+
+Question 43. How Do I See The Java Code For My Flow Service?
+Answer :
+Flow is not turned into java code. It resides on disk as XML representing the flow operations which is then parsed and turned into an in-memory java tree of the operations. Although the underlying code that implements the flow operations is java, it is stored on disk as XML.
+
+Question 44. How Do I Throw An Exception When Using A Try-catch Block?
+Answer :
+Set a flag in your catch block or leave a variable holding the error message in the pipeline.
+Outside the catch block put a branch on that variable or flag and if it is non-null then exit with failure or call the service that generates the exception.
+
+Question 45. How To Get The Current Index Of The List In A Loop?
+Answer :
+There is a special variable on the pipeline called $iteration which will be incremented as the loop operator works up through the list.
+
+Question 46. How To Limit A Flow Service Executed Only By One Thread At A Time?
+Answer :
+•Create a java service
+•Create a private static object on the shared source (private static Object LOCK_OBJ = new Object(); )
+•Have the code below on the java service source:
+IDataCursor idc = pipeline.getCursor();
+IDataCursor idcResult = null;
+try {
+// put this section into a critical section to ensure single-threaded execution
+synchronized(LOCK_OBJ)
+                {
+                    Execute a flow service using Service.doInvoke
+                }
+idc.destroy();
+idcResult.destroy();
+} catch (Exception exc){ 
+                ServerAPI.logError(exc); 
+                idc.destroy();     
+throw new ServiceException(exc.toString());             }\
+
+Question 47. How Do I Sort Using The Jdbc Select Adapter Service?
+Answer :
+Although there is no tab to specify "order by" the same functionality is able to be specified in the "SELECT" tab. One of the columns in the is labelled "Sort Order" which will allow you to specify the column(s) you wish to sort by. To alter the order: simply alter the order of the columns selected.
+
+Question 48. How Should I Organise Connection Pools?
+Answer :
+If you have adapter notifications and adapter services then you will need to have two separate connections. Otherwise you may get strange errors about transactions and the like. You should also avoid having connection pools shared across different functional areas, even if they are pointing to the same database. The reason for this is that tuning the size of the pool becomes quite difficult if you have multiple types of usage of a pool. You are also unable to easily change the database settings for one without impacting on the other.
+One approach that seems to work quite well is to have separate pools for each package (generally.. not a hard and fast rule though), as your packages should generally be divided up according to functional area too.
+
+Question 49. How To Preserve Existing Pipeline Before A Restorepipeline Step?
+Answer :
+Set the "$merge" variable in restorePipeline or "merge" in restorePipelineFromFile to be true. This will ensure that everything in the pipeline before a restorePipeline step is preserved.
+
+Question 50. What Is The Default Behaviour If A Flow Exit Does Not Specify A "from"?
+Answer :
+$loop will be assumed, and a com.wm.lang.flow.FlowException will be thrown if the EXIT is not in a LOOP.
+

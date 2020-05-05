@@ -1,0 +1,67 @@
+1.How to check CPU usage
+Answer:
+You can also in AIX system use topas command
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2.How do you check memory usage
+Answer:
+   1) In Administrator Page
+   2) Top Command
+   3) free command (e.g. Free -m
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3.JMS triggers
+Answer:
+1) A JMS trigger is a trigger that receives messages from a destination (queue or topic) on a JMS provider and then processes those messages.
+2) A JMS message is a Broker document; its document type is related to that of the topic or queue being published.
+3) The webMethods Broker implementation of JMS supports the JMS publish-subscribe (pubsub) and point-to-point (PTP) messaging models.
+4) Pub-Sub Messaging
+In pub-sub messaging, message producers publish messages, and message subscribers consume those messages. If multiple message consumers subscribe to the same topic, each consumer will be given a copy of the message.
+5) Point-to-Point Messaging
+In JMS PTP messaging, a message producer sends messages to a message queue, and a message consumer retrieves messages from that queue. A JMS message queue is implemented as a guaranteed Broker client with the same name.
+6)Durable Subscribers
+The JMS pub-sub model supports durable subscribers. A durable subscriber's subscription remains valid until explicitly removed by the client program; thus, a durable subscriber survives both client connection failures and server restarts.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4.How do you deploy the code from one environment to another environment? 
+Answer:
+  1) Use Deployer(Define, Build, Map, Deploy)
+  2) Install Inbound Release
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+  
+5.Explain in and out how does Trading Network works whe n an transaction is submitted
+Answer:
+Trading Networks uses the information you specify at design time to process a document at run time. It uses:
+
+DESIGN TIME
+* Sender's profiles to ensure the user sending the document is an active partner in your network
+* Receiver's profiles to obtain information specific to the receiving partner for processing document (e.g., the partner's HTTP hostname and port number if delivering a document via HTTP)
+* TN document types to recognise the type of document that was sent and to determine document attributes to associate with the document
+* Processing rules to determine the actions you want Trading Networks to perform against the inbound document
+
+The run-time processing that Trading Networks performs for an inbound document can be divided into four areas:
+RUN TIME PROCESSING : 
+* Recognition processing, which is determining the TN document type that matches the inbound document using the identification information that you defined in TN document types, and after locating the matching TN document type, obtaining the values of the document attributes that you specified in the TN document type.
+* Processing rule selection, which is determining the processing rule to use for the inbound document based on the criteria that you defined in processing rules.
+* Pre-processing actions, which is performing the pre-processing actions that you defined in the TN document type and/or processing rule.
+* Processing actions, which is performing the processing actions that you defined in the processing rule.
+Preprocessing Rule - Verify Digital Signature, Validate Structure Of Document, Check Duplication, Save.
+Processing Action - Execute a Service, Send an alert e-mail, Change the user status, Deliver the document to Receiver, Respond with a message.
+
+DELIVERY TIME PROCESSING :
+Trading Networks can deliver documents using one of the following delivery options that you specify with the Deliver Document By processing action in a processing rule:
+* Immediate Delivery. Trading Networks attempts to deliver a document directly to the receiving partner. You can create immediate delivery methods using the standard delivery methods such as HTTP and FTP. In addition, you can create immediate delivery methods using custom delivery services.
+* Scheduled Delivery. Trading Networks queues documents to be delivered at scheduled times. You define scheduled delivery queues in Trading Networks. When you define the queue, you associate both a schedule and a scheduled delivery service with the queue. At the time(s) the schedule indicates, Trading Networks invokes the scheduled delivery service to act on the documents in the queue to deliver them. Trading Networks provides one built-in scheduled delivery service. You can add additional scheduled delivery services to meet your needs. 
+* Queued for polling. Trading Networks places the document in an internally-defined queue. The receiving partner later polls for documents and Trading Networks
+returns all the documents in the queue for which that partner is the receiver.
+* Receiver's Preferred Protocol. Trading Networks looks up the receiver's profile and uses the delivery method that is identified in the profile as the preferred delivery method.The preferred delivery method can be any of the immediate delivery methods, scheduled delivery, or queued for polling.  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+6.What are public queues
+Answer:
+A queue that you define to schedule the delivery of documents that are aimed at multiple different receiving partners. When you define a public queue, the name of the public queue is added to the list of queues you can select when specifying a scheduled delivery method with the Deliver Document By processing action  
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+7.Scope property is use to define name of the document in the pipeline.To restrict pipeline access to only the data in this document.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+  
+  
