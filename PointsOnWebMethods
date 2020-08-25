@@ -77,4 +77,63 @@ Packages info :
 ▪ Manifest File: Indication of whether the package is enabled or disabled, List of startup, shutdown, and replication services, if any, for the package
  Package description, Version information, Patches applied, Package dependencies, if any, for the package, Target package name.
  
+ Package Movement : 
+ ▪ Package replication copies packages from one Integration Server to another. 
+ ▪ Inbound, Outbound --Making of archive from IS Admin page, and Copy paste of packages from CMD.(It can be full or a patch which is a service).
+ ▪ Access Control List (ACL): List, Read, Write, Execute (These are package permissions)
+ ---------------------------------------------------------------------------------------------------------------------------------------------------
+ Ports : 
+ Integration Server – Ports : 
+ ▪ Http, Https, FTPS, SMTP, FTP, File polling. These are either Primary port, Diagnostic port.
+ ▪ Integration Server – Remote Server Alias
+ ▪ Integration Server – Document Store
+ ▪ Integration Server – Reverse Invoke Server
+ ---------------------------------------------------------------------------------------------------------------------------------------------------
+ Adapters : 
+ Adapters support proprietary protocols for accessing packaged applications such as SAP, Siebel, JD Edwards, Oracle Applications, and PeopleSoft; databases such as
+Oracle, SQL Server, Informix, Sybase, and DB2; and mission-critical programs on mainframes and UNIX systems.
+▪ Adapters Service = Adapter Service enables the Integration Server to initiate and perform operations on the adapter’s resource.
+▪ Adapters Notification = Adapter notification monitors a resource and notifies the Integration Server when an action (not initiated by the Integration Server) has occurred on the adapter’s resource. 
+▪ The Adapter Development Kit (ADK) is a set of public Application Programming Interfaces (APIs) used to create custom adapters that interact with the Integration Server. 
+ Integration Server – JDBC pools 
+ ▪ WebMethods Adapters : SAP, and jdbc adapters, only for data communication in databases.
+ ▪ Integration Server – Logging : There are different types of logging.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+webMethods Broker : 
+The role of the Broker is to route documents between information producers(publishers) and information consumers (subscribers). The Broker receives, queues, and delivers documents.
+It is a pub-sub model.Only one broker server can have multiple instances which can be connected to IS.
+webMethods Broker Components
+▪ Broker Server, Brokers, Queues,  Broker Monitor,  Broker User Interface,  Document Types,  Clients (Client State Objects), Dead Letter queue, 
+Subscriptions, Territories, Territory Gateways, Queue sto rage.
+Broker – Messaging Protocols
+▪ webMethods proprietary messaging protocol 
+▪ Java Message Service (JMS) protocol
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+WebMethods Designer : 
+▪ Service Development
+▪ Running Flow services
+▪ Service Development perspective 
+▪ Debugging Flow services ( Save pipeline , Restore pipeline).
+▪ Continuous Query Development
+▪ UI Development
+▪ Business Process Development
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+WebMethods Trading Networks
+▪ webMethods Trading Networks: webMethods Trading Networks (also referred to as Trading Networks) is a component that runs on the webMethods Integration Server. 
+Trading Networks enables your enterprise to link with other companies (buyers, suppliers, strategic partners) and marketplaces to form a business-to-business trading network. 
+
+Trading Networks has below :
+▪ Define Trading Partners=Profiles, External ID,  Delivery methods.
+▪ Define Document Types=Identifying queries, Extract attributes.
+▪ Define Processing Rules=Rule selection criteria, Actions to perform.
+▪ Trading Partner Agreements (TPA)
+▪ Document Types =XML, Flat file , EDI.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+My webMethods Server (MWS) 
+▪ It is a run-time container for functions made available by webMethods applications. The user interface in which you perform these functions 
+▪ Administration and Monitoring
+▪ It has multiple side tabs which includes many functionality including Trading networks.
+
+
+ 
  
