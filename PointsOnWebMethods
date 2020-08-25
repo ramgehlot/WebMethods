@@ -6,9 +6,24 @@ webMethods Product Suite :
 ▪ Deploying assets developed in the product suite from one environment
 to another.
 
+▪ Software AG Installer is an application that enables you to install, upgrade,
+and uninstall the webMethods product suite. The installer offers a wizard in
+both GUI and command line modes that guides you through each of those
+activities. In addition, image script can be created and run it on multiple
+machines to create identical installations.
+▪ Update Manager is an application that enables you to install and uninstall
+fixes to Software AG products.
+▪ Deployer is a graphical tool that lets you deploy assets developed in the
+webMethods product suite from one environment to another.
+
 ▪ Integration Server is the webMethods platform’s central run-time
 component and the primary engine for the execution of integration
-logic. 
+logic.  
+
+▪Both Developer and Designer lets you rapidly construct integration logic with an
+easy‐to‐use implementation language called the webMethods flow language. Flow
+language provides a set of simple but powerful constructs that you use to specify a
+sequence of actions (steps) that the Integration Server will execute at run time. 
 
 The webMethods Eclipse Designer  provides:
 ▪ Service Development perspective for designing and testing flow services.
