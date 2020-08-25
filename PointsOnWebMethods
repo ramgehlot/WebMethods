@@ -6,24 +6,16 @@ webMethods Product Suite :
 ▪ Deploying assets developed in the product suite from one environment
 to another.
 
-▪ Software AG Installer is an application that enables you to install, upgrade,
-and uninstall the webMethods product suite. The installer offers a wizard in
-both GUI and command line modes that guides you through each of those
-activities. In addition, image script can be created and run it on multiple
-machines to create identical installations.
-▪ Update Manager is an application that enables you to install and uninstall
-fixes to Software AG products.
-▪ Deployer is a graphical tool that lets you deploy assets developed in the
-webMethods product suite from one environment to another.
+▪ Software AG Installer is an application that enables you to install, upgrade, and uninstall the webMethods product suite. The installer offers a wizard in both GUI and command line modes that guides you through each of those
+activities. In addition, image script can be created and run it on multiple machines to create identical installations.
+▪ Update Manager is an application that enables you to install and uninstall fixes to Software AG products.
+▪ Deployer is a graphical tool that lets you deploy assets developed in the webMethods product suite from one environment to another.
 
-▪ Integration Server is the webMethods platform’s central run-time
-component and the primary engine for the execution of integration
-logic.  
+▪ Integration Server is the webMethods platform’s central run-time component and the primary engine for the execution of integration logic.  
+▪ Integration Server Administrator: The Integration Server Administrator is an HTML‐based utility used to administer the webMethods Integration Server. 
 
-▪Both Developer and Designer lets you rapidly construct integration logic with an
-easy‐to‐use implementation language called the webMethods flow language. Flow
-language provides a set of simple but powerful constructs that you use to specify a
-sequence of actions (steps) that the Integration Server will execute at run time. 
+▪Both Developer and Designer lets you rapidly construct integration logic with an easy‐to‐use implementation language called the webMethods flow language. Flow 
+language provides a set of simple but powerful constructs that you use to specify a sequence of actions (steps) that the Integration Server will execute at run time. 
 
 The webMethods Eclipse Designer  provides:
 ▪ Service Development perspective for designing and testing flow services.
@@ -35,12 +27,54 @@ systems)
 
 ▪ WebMethods Adapters : SAP, and jdbc adapters, only for data communication in databases.
 
-▪ webMethods Broker is a high-speed message router that can use
-asynchronous publish-subscribe or point-to-point messaging.
-▪ WebMethods products publish data to Broker in the form of documents.
-When a publisher publishes a document to webMethods Broker,
-webMethods Broker looks up the subscriber list for that document type
-and queues the document for the subscribers, each of which retrieves the
-document and processes it when convenient.
+▪ webMethods Broker is a high-speed message router that can use asynchronous publish-subscribe or point-to-point messaging.
+▪ WebMethods products publish data to Broker in the form of documents. When a publisher publishes a document to webMethods Broker, webMethods Broker looks up the subscriber list for that document type
+and queues the document for the subscribers, each of which retrieves the document and processes it when convenient.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+IS Folder and Elements : 
+▪ Element: An element is an item that exists in the Navigation panel. Elements include folders, services, specifications, IS document types, triggers, and IS schemas.
+▪ Element Names: The fully qualified name of an Integration Server element is composed of two parts: a folder identifier, consisting of the folder path in which the
+element resides, and the element name. 
+▪ Packages are designed to hold all of the components of a logical unit in an integration solution. package is a container that is used to bundle services and related elements, such as specifications, IS document types, IS schemas, and output templates.
+▪ Flow service: A flow service is a service that is written in the webMethods flow language. Any service can be invoked within a flow. Flow services are saved in XML
+files on webMethods Integration Server.
 
+▪ Variable: A variable can be a String, String list, String table, document, document list, document reference, document reference list, Object, or Object list.
+▪ Document reference: IS document type can be used to build a document reference or document reference list field. Using document reference reduces the time required to create the same fields and maintain better consistency for field names.
 
+▪ Locking: The lock on an element prevents another user from editing that element. This ensures that only one person is working on a particular element at a time, preventing
+the loss of changes. There are two types of locks:
+▪ User lock
+▪ System lock
+
+Flow steps 
+ A flow service contains flow steps. 
+▪ INVOKE: The Invoke flow step invokes another service.
+▪ MAP: The MAP step lets you adjust the contents of the pipeline at any point in a flow service. 
+▪ BRANCH: The BRANCH step allows you to conditionally execute a step based on the value of a variable at run time.(switch & if else conditions).
+▪ LOOP: The LOOP step repeats a sequence of child steps once for each element in an array that you specify. It is performed on String list, String table, Document list, Object list.
+Works on Input array and output array.
+▪ REPEAT: The REPEAT step repeatedly executes its child steps up to a maximum number of times that you specify.Works on 2 conditions : Failure , Success.
+▪ SEQUENCE: SEQUENCE step is used to build a set of steps that you want to treat as a group. 
+▪ EXIT: The EXIT step exits the entire flow service or a single flow step. 
+▪ Exit from: Specifies the flow step or service from which you want to exit.
+  $parent: Parent flow step, regardless of the type of step.$loop: Nearest parent LOOP or REPEAT step. $flow: Entire flow.
+▪ Transformers :  These are inbuilt services which are defined in the IS. Ex : addition transformer, String concat, etc.
+▪ Pipeline is the general term used to refer to the data structure in which input and output values are maintained for a flow service. 
+
+▪ Flat File Schema: A flat file schema is the blueprint that contains the instructions for parsing or creating a flat file and is created as a namespace element in the webMethods Integration Server. 
+▪ Triggers establish subscriptions to publishable document types and specifies how to process instances of those publishable document types. 
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Packages info : 
+▪ code subdirectory: holds the Java and C/C++ services, classes, jars, static, source, and lib subdirectories:
+▪ ns subdirectory :holds flow services, specifications, document types, schemas, triggers, adapter notifications, adapter documents, adapter services, adapter connectors, and code fragments for Java services.
+▪ pub subdirectory: holds Web documents for the package (dsp files).
+▪ doc subdirectory: holds documentation for the package.
+▪ resources subdirectory: holds resource bundles <bundle.properties>, such as application data (Icons, Window positions, Menu, etc.).
+▪ templates subdirectory: holds output templates that are associated with this package.
+▪ web subdirectory: holds JSPs that are associated with this package.
+▪ Manifest File: Indication of whether the package is enabled or disabled, List of startup, shutdown, and replication services, if any, for the package
+ Package description, Version information, Patches applied, Package dependencies, if any, for the package, Target package name.
+ 
+ 
