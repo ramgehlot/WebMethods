@@ -1,1 +1,31 @@
 
+webMethods Product Suite : 
+▪ Installing and uninstalling products and fixes.
+▪ Upgrading products and migrating data.
+▪ Creating and dropping databases.
+▪ Deploying assets developed in the product suite from one environment
+to another.
+
+▪ Integration Server is the webMethods platform’s central run-time
+component and the primary engine for the execution of integration
+logic. 
+
+The webMethods Eclipse Designer  provides:
+▪ Service Development perspective for designing and testing flow services.
+▪ defining and modifying documents and mapping logic
+▪ Testing, debugging and executing services
+▪ Creation and configuration of web services
+▪ Editing adapter service and notifications (used to connect with external
+systems) 
+
+▪ WebMethods Adapters : SAP, and jdbc adapters, only for data communication in databases.
+
+▪ webMethods Broker is a high-speed message router that can use
+asynchronous publish-subscribe or point-to-point messaging.
+▪ WebMethods products publish data to Broker in the form of documents.
+When a publisher publishes a document to webMethods Broker,
+webMethods Broker looks up the subscriber list for that document type
+and queues the document for the subscribers, each of which retrieves the
+document and processes it when convenient.
+
+
