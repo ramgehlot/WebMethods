@@ -1,0 +1,17 @@
+Adapters (pub.art folder): 
+▪ Adapter Connection : Adapter Connection is used for connecting databases at runtime.
+▪ Adapters Service = Adapter Service enables the Integration Server to initiate and perform Database operations on the DB using adapters.
+▪ Adapters Notification = Adapter notification monitors a resource and notifies the Integration Server 
+  when an action (not initiated by the Integration Server) has occurred on the adapter’s resource. 
+The Adapter Development Kit (ADK) is a set of public Application Programming Interfaces (APIs) used to create custom adapters that interact with the Integration Server. 
+Integration Server – JDBC pools 
+▪ WebMethods Adapters : SAP, and jdbc adapters, only for data communication in databases.
+
+There are 3 types of  Transaction Types :
+• NO_TRANSACTION:no transaction control over the operations being performed.
+• LOCAL_TRANSACTION : all of the operations on the same connection in one transaction boundary will be committed or rolled back together
+• XA_TRANSACTION: operations on multiple connections will be committed or rolled back together.
+
+
+
+
