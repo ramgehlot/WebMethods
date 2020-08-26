@@ -1,0 +1,57 @@
+• webMethods Trading Networks (also referred to as Trading Networks) is a component that runs on the webMethods Integration Server. Trading Networks enables your enterprise to link with other companies.
+• Trading Networks is a part of MWS.My webMethods Server is the run-time container for functions that webMethods components make available.
+Flow of processing in Trading Networks = 
+Trading Networks uses the information you specify at design time to process a document at run time. Those are
+1.Sender’s profile.(To identify the sender in document. It also includes adding of sender, and TPA).
+2.Receiver’s profile(To identify the reciever in document. It also includes adding of reciever, and TPA).
+3.TN document types (To identify the DocumentType. It also includes adding of Documenttype, and TPA).
+4.Processing rules (To invoke which processing rule and perform the execution ie transformation of Data).
+
+• Adding Profile : Corporation name, Partner type, External ID type, Value, Delivery Method, Security.
+
+Trading Partner Agreement - TPA
+• A Trading Partner Agreement (TPA) in Trading Networks is a set of parameters that you can use to govern how documents are exchanged between two trading partners. 
+• Every TPA has Sender,Reciever, and Agreement ID, Document type fields. and further more (Data Status).
+
+Document Attributes
+• SenderID = Identification of the trading partner that sent the document
+• ReceiverID = Identification of the trading partner that is to receive the document
+• DocumentID = Identification of the document
+• UserStatus = A status that you or a partner has associated with the document
+• GroupID = Identification within a document that associates this document with other documents in its group
+• ConversationID = Identification within a document that associates this document with other documents in the same conversation of documents
+• Signature and SignedBody = The portions of the document that contain a digital signature of the document and the signed data/
+
+Document Types
+• XML Document Types : Trading Network recognizes XML documents, where to locate attributes within an XML document, and how to pre-process the XML documents.
+ Identification information : Root tag, Identifying queries, Pipeline variables.
+ 
+• FlatFile Document Types :  flat file data is externalized as a set of record without any structural information.
+Trading Networks will retrieve the flat file information from the TN_parms pipeline variable.
+
+Processing Rules
+• It defines how Trading Networks (Trading Networks) wilprocess documents.
+steps in Processing rule : (In - Execute - out).
+•Execute a service.Send an alert e-mail .Change the user status.Deliver the document .Respond
+
+Resubmitting & Reprocessing
+• Resubmit Trading Networks sends the document back to recognition processing as a new document. 
+• Reprocess Trading Networks sends the document back to processing rule selection.
+
+Queue : A queue in Trading Networks is a grouping of outbound documents that can be delivered in batch.(Note :  Queue also occurs for large inbound messages)
+Different options for Delivery = 
+•Queue for Polling (In this the reciever polls the messages from the outbound of TN )
+•Scheduled Delivery (At time schedules the message is delivered from TN or placed in inbound.)
+•Receiver’s Preferred Protocol (FTP, HTTPS, SMTP etc are delivery methods)
+•Immediate Delivery (Same above protocol used but delivered just after processing).
+
+Trading Network security features
+Roll based access
+•Trading Networks actions that you access from My webMethods are protected by role-based access.
+•User must be a member of a role to which that permission has been granted. 
+
+
+ 
+
+
+
