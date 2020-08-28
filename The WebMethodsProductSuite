@@ -1,0 +1,23 @@
+Note : Download the IS trail version from softwareAG.com.
+
+The WebMethods Product Suite includes : 
+▪ Installing and uninstalling products and fixes.
+▪ Upgrading products and migrating data.
+▪ Creating and dropping databases.
+▪ Deploying assets developed in the product suite from one environment
+to another.
+
+Installing Products and Fixes : 
+1. Unzipping the files, Instaling the IS using Image file in Installer.
+2.Selecting the component and plugins as per requirement.(Example : Adapters,MWS, Terracotta, IS, Updatemanager etc.)
+3.Selecting ports and license key of IS.
+4.Configuration and Installation.
+
+Update Manager : It is used to add/remove fixes or components installed during the product installation process.
+
+IS/default/bin-to startup/Shutdown the IS.
+http://localhost:5555/
+user : Administrator, Password : manage.
+
+On starting up IS, The Admin page has different components.such as
+1.Schedulers, Packages, Adapters, security,Settings and other components. 
