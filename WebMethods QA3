@@ -1,0 +1,20 @@
+1.what are Transaction Types in JDBC Adapter ?
+There are 3 types of  Transaction Types :
+• NO_TRANSACTION
+• LOCAL_TRANSACTION 
+• XA_TRANSACTION
+
+2.what is Adapter Connection, Adapters Service ?
+• Adapter Connection is used for connecting databases at runtime.
+• Adapter Service allows the Integration Server to perform Database operations such as DDL,DML etc.
+
+3.What is Deployer in webmethods ? 
+Deployer is a graphical tool that lets deploy services developed in the webMethods product suite from one to another.
+
+4.What is Integration Server Administrator ? 
+The Integration Server Administrator is an HTML‐based utility used to administer the webMethods Integration Server. 
+
+5.Define WebMethods Broker ?
+ webMethods Broker is a high-speed message router that can uses asynchronous publish-subscribe model or point-to-point messaging model for processing the messages.
+ 
+ 6.
