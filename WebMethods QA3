@@ -17,4 +17,29 @@ The Integration Server Administrator is an HTML‐based utility used to administ
 5.Define WebMethods Broker ?
  webMethods Broker is a high-speed message router that can uses asynchronous publish-subscribe model or point-to-point messaging model for processing the messages.
  
- 6.
+6.List the types of flow steps used in creating a Flowservice ?
+The list of flow steps used are 
+1.INVOKE
+2.MAP
+3.BRANCH
+4.LOOP
+5.REPEAT.
+6.SEQUENCE
+7.EXIT
+
+7.what are transformers , why there are used in webmethods ?
+Transformers are the services you use to accomplish value transformations on the Pipeline Tab. There are In-built transformers defined in IS default packages.
+
+8.What is pipeline in webmethods ? 
+Pipeline is the general term used to refer to the data structure in which input and output values are maintained for a flow service. 
+
+9.What are different types of ports available in webmethods tool ? 
+The ports are Http, Https, FTPS, SMTP, FTP, File polling. These are either Primary port, Diagnostic port.
+
+10.Define Trading Networks in webmethods ?
+It is a component that runs on the webMethods Integration Server.It enables enterprise to link with other companies (buyers, suppliers, strategic partners) and marketplaces to form a business-to-business trading network. 
+ 
+11. What are variable types in webmethods ?
+Variable types in webmethods are String, String list, String table, document, document list, document reference, document reference list, Object, or Object list.
+
+12.
