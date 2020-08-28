@@ -42,4 +42,31 @@ It is a component that runs on the webMethods Integration Server.It enables ente
 11. What are variable types in webmethods ?
 Variable types in webmethods are String, String list, String table, document, document list, document reference, document reference list, Object, or Object list.
 
-12.
+12.What is TPA in TradingNetworks ? 
+A Trading Partner Agreement (TPA) in Trading Networks is a set of parameters that you can use to govern how documents are exchanged between two trading partners.
+
+13.What Is an Element?
+An element is an item that exists in the Navigation panel in webMethods Designer.
+Elements include folders, services, specifications, IS document types, triggers, and ISschemas.
+
+14.What is ns subdirectory ?
+ns subdirectory holds flow services, specifications, document types, schemas, triggers, adapter notifications, adapter documents, adapter services, adapter connectors, and code fragments for Java services.
+
+15.What Is a Dynamic Server Page(DSP)?
+A dynamic server page (DSP) is a document embedded with special codes (tags) that instruct the webMethods Integration Server to perform certain actions when an HTTP (or HTTPS) client requests the document. DSPs are used to construct browser-based applications.
+
+16.What is the use of webmethods Designer ? 
+WebMethods Designer is used for : 
+▪ Service Development
+▪ Running Flow services
+▪ Service Development perspective 
+▪ Debugging Flow services ( Save pipeline , Restore pipeline).
+▪ Continuous Query Development
+▪ UI Development
+▪ Business Process Development
+
+17.What is a JMS trigger?
+ A JMS trigger is a trigger that receives messages from a destination (queue or topic) on a JMS provider and then processes those messages.
+ 
+ 18.
+
