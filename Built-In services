@@ -6,3 +6,37 @@ WmPublic-Db Folder : You use the elements in the db folder to access JDBC-enable
 WmPublic-Document Folder : You use the elements in the document folder to perform operations on documents in the pipeline.
 WmPublic-Event Folder : You use the elements in the event folder to subscribe to events, write event handlers, and work with EDA (Event Driven Architecture) events.
 WmPublic-File Folder : You use the elements in the file folder to perform operations on the local file system.
+WmPublic-Flat File Folder : 
+WmPublic-Flow Folder : 
+WmPublic-Hastable Folder : 
+WmPublic-IO Folder : 
+JDBC Folder : 
+JMS Folder : 
+JSON Folder : 
+list Folder : 
+Math Folder : 
+MetaData Folder : 
+MIME Folder :
+OAUTH Folder : 
+Packages Folder : 
+PKI Folder : 
+Publish Folder : 
+Remote Folder : 
+Replicator Folder : 
+Report Folder : 
+Scheduler Folder : 
+Schema Folder :
+Security Folder : 
+SMIME Folder :
+SOAP Folder :
+Storage Folder : 
+String Folder : 
+Sync Folder : 
+Synchronization Folder : 
+Trigger Folder : 
+TX Folder : 
+UniversalName Folder : 
+Utils Folder : 
+VCS Folder :
+XML Folder :
+XLST Folder : 
