@@ -68,5 +68,5 @@ WebMethods Designer is used for :
 17.What is a JMS trigger?
  A JMS trigger is a trigger that receives messages from a destination (queue or topic) on a JMS provider and then processes those messages.
  
- 18.
-
+ 18.What does ART folder refers to ?
+ Art folder to manage adapter components, including connections, adapter services, listeners, and notifications.
