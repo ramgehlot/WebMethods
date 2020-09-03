@@ -23,20 +23,25 @@ PKI Folder :
 Publish Folder : 
 Remote Folder : 
 Replicator Folder : 
-Report Folder : 
-Scheduler Folder : 
-Schema Folder :
-Security Folder : 
-SMIME Folder :
-SOAP Folder :
-Storage Folder : 
-String Folder : 
-Sync Folder : 
-Synchronization Folder : 
-Trigger Folder : 
-TX Folder : 
-UniversalName Folder : 
-Utils Folder : 
-VCS Folder :
-XML Folder :
-XLST Folder : 
+Report Folder : You use the elements in the report folder to apply an output template to an IData object. The services can be used in order to generate any type of dynamic XML, EDI, or HTML document.
+Scheduler Folder : You use the elements in the scheduler folder to execute services at the times you specify. Services that you schedule are referred to as user tasks or just tasks. The Scheduler feature
+                    on the webMethods Integration Server handles execution of the tasks.
+Schema Folder :You use the elements in the schema folder to validate objects and to validate the pipeline.
+Security Folder : You use the elements in the security folder to control which client certificates are sent to other services and digitally sign data and process digital signatures. You can also use the
+                  elements to store and retrieve outbound passwords to access secure resources.
+SMIME Folder : You use the elements in the smime folder to create digitally signed and/or encrypted MIME messages. You also use the services in this folder to process signed and encrypted MIME messages that are passed into the pipeline.
+SOAP Folder :   You use the elements in the soap folder to compose and send SOAP messages and to receive and retrieve data from within them.
+Storage Folder : You use the elements in the storage folder to create, close, and delete data stores in the Integration Server short-term store.
+String Folder : You use the elements in the string folder to perform string manipulation and substitution operations.
+Sync Folder : You use the elements in the sync folder to coordinate the execution of services. You can coordinate services so that a waiting service will execute if and only if a notifying service
+              produces the input required by the waiting service within a specified time period. The synchronization services wait for and send notification using a key. A notifying service
+              only delivers input to waiting services with the same key.
+Synchronization Folder : You use the elements in the synchronization folder to perform latching and crossreferencing operations in a publish-and-subscribe integration.
+Trigger Folder : You can use the services in the trigger folder to create and delete triggers and manage document retrieval and document processing for individual Broker/local triggers. 
+                 You can also use services to create, delete, enable, disable, or suspend one or more JMS triggers.
+TX Folder : Use services in the tx folder to perform administrative tasks for guaranteed delivery transactions.
+UniversalName Folder : You use the elements in the universalName folder to list the contents of the Universal Name Registry and to look up services or document types by their universal names
+Utils Folder : The utils folder contains utility services.
+VCS Folder : You use the elements in the VCS folder to manage user associations for the Version Control System Integration feature.
+XML Folder : You use the elements in the xml folder to perform operations on XML documents.
+XLST Folder : You use the elements in the XSLT folder to transform XML into a byte array, file, or XML node, and to maintain the XSLT stylesheet cache.
