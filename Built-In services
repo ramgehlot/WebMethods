@@ -126,4 +126,8 @@ storage : add,closestore,deletesotore,get,keys,lock,put,remove,shutdown,startup,
 string : bytestostring,concat,HTMLDECODE,ENCODE,indexof,length,lookuptable,makestring,numericformat,objecttostring,padright,padleft,replace,substring,tokenize,toupper,tolower,trim.
 => Sync Folder : 
 sync : notify,shutdown,wait.
-= > Synchronization Folder : 
+=> Synchronization Folder : 
+synchronization.latch : openlatch,closelatch,isclosedlatch.
+synchronization.xref : create,delete,insert=xreference.,deletebyobjectid,getcanonicalkey.
+=> Trigger Folder : 
+trigger : create,delete=Trigger,create,delete,enable,disable=JMSTriggers,Resume,retrieval=processing,Resume,retrieval=suspend. 
