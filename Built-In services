@@ -6,23 +6,26 @@ WmPublic-Db Folder : You use the elements in the db folder to access JDBC-enable
 WmPublic-Document Folder : You use the elements in the document folder to perform operations on documents in the pipeline.
 WmPublic-Event Folder : You use the elements in the event folder to subscribe to events, write event handlers, and work with EDA (Event Driven Architecture) events.
 WmPublic-File Folder : You use the elements in the file folder to perform operations on the local file system.
-WmPublic-Flat File Folder : 
-WmPublic-Flow Folder : 
-WmPublic-Hastable Folder : 
-WmPublic-IO Folder : 
-JDBC Folder : 
-JMS Folder : 
-JSON Folder : 
-list Folder : 
-Math Folder : 
-MetaData Folder : 
-MIME Folder :
-OAUTH Folder : 
-Packages Folder : 
-PKI Folder : 
-Publish Folder : 
-Remote Folder : 
-Replicator Folder : 
+WmPublic-Flat File Folder : Use the elements in the Flat File folder to convert between Flat File documents and IS documents (IData objects), and to manage dictionary entries, entire flat file dictionaries, and flat file schemas.
+WmPublic-Flow Folder : You use the elements in the flow folder to perform debugging and utility-type tasks in a flow service.
+WmPublic-Hastable Folder : This folder contains services that you can use to create, update, and obtain information about the hashtable.
+WmPublic-IO Folder : You use the elements in the io folder to convert data between byte[ ], characters, and InputStream representations. The io folder contains services for reading and writing bytes, characters, and streamed data to the file system.
+JDBC Folder : You use the elements in the JDBC folder to obtain information about Integration Server JDBC pools.
+JMS Folder : You can use the services in the JMS folder to send and receive JMS messages.
+JSON Folder : You use the elements in the JSON folder to convert JSON content into a document (IData object), and a document (IData object) into JSON content.
+list Folder : You use the elements in the list folder to retrieve, replace, or add elements in an Object List, Document List, String List, or Vector.
+              You also use list services to convert String Lists to Document Lists or a Vector to an Array
+Math Folder : You use the elements in the math folder to perform mathematical operations on stringbased numeric values.
+MetaData Folder : You use the elements in the metadata folder to publish metadata about Integration Server packages and administrative assets to the CentraSite shared registry
+MIME Folder :You use the elements in the mime folder to create MIME messages and extract information from MIME messages
+OAUTH Folder : Use the elements in the oauth folder to authorize a client application to access data on Integration Server using the OAuth 2.0 Authorization Framework.
+Packages Folder : You use the elements in the packages folder to install, load, and/or alter the status of a package on the Integration Server.
+PKI Folder : You use the elements in the pki folder to create and verify PKCS#7 signatures with PKI profiles. You also use elements in this folder to create and process S/MIME messages using PKI profiles
+Publish Folder : You use the elements in the publish folder to publish documents to other Integration Servers via webMethods Broker.
+Remote Folder : You use the elements in the remote folder to invoke services on other webMethods Integration Server.
+Replicator Folder : You use the elements in the replicator folder to replicate packages across webMethods Integration Servers. This folder contains services that you can use to push packages from
+                    your webMethods Integration Servers to a subscriber's server. It also contains services that you can use to pull packages from a publisher's server to your webMethods
+Integration Server
 Report Folder : You use the elements in the report folder to apply an output template to an IData object. The services can be used in order to generate any type of dynamic XML, EDI, or HTML document.
 Scheduler Folder : You use the elements in the scheduler folder to execute services at the times you specify. Services that you schedule are referred to as user tasks or just tasks. The Scheduler feature
                     on the webMethods Integration Server handles execution of the tasks.
