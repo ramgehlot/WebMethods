@@ -48,3 +48,45 @@ Utils Folder : The utils folder contains utility services.
 VCS Folder : You use the elements in the VCS folder to manage user associations for the Version Control System Integration feature.
 XML Folder : You use the elements in the xml folder to perform operations on XML documents.
 XLST Folder : You use the elements in the XSLT folder to transform XML into a byte array, file, or XML node, and to maintain the XSLT stylesheet cache.
+
+
+=================================================================================================================================================================================
+=> Art Folder has below services with operations.
+list : Registered adapters.
+Connection : Enable,disable,connection statics, listconnections,Connectionstate.
+Listener : Enable, Disable, listlisteners, resume, suspend.
+Notification : Disable, enable pollingnotifications , Disable, enable listenernotifications, listadapterslistnernotification, listadapterspollingnotification,state, resume, query, set.
+service : listadapterservices, listnodeconnections.
+Transaction : Commit transaction, rollback, settransactiontimeout, start.
+=> Client Folder : 
+Ftp : Delete, login, logout, cdls, put, quote, rename, sessioninfo.
+Http : This service is used to check connectivity of http connection.
+Ldap : add, bind, cancel, modify, compare, rename, search, execute, login logout, 
+Sftp : linux operations such as : cd, chgrp, chmod, ls, mkdir, put, rm rmdir.
+Smtp : It is e-mail message protocol, used to send mail.
+=> Db Folder : 
+Db : call, close,cleartransaction, commit, connect, delete, insert,gettableinfo, rollback, update,starttransaction.
+=> Document Folder : 
+document : Bytestodoc, delete, doclist-to-doc, doc-to-doclist, doctoxml,groupdoc, insertdoc, searchdoc, sort,xmlvalues-todoc.
+=>Event Folder : 
+Event : alarm, audit, eda, error, gd, jms, journal, port, session, tx.
+=> File Folder : 
+file : bytestofile, checkfile, copyfile, deletefile, get, list,move,reader,streamtofile,stringtofile.
+FLow Folder : 
+flow : clear pipeline,debuglog, lasterror, getsession, restore,save pipeline, setresponse, tracepipeline.
+=> Hastable Folder :
+hastable : create, get, put, remove, size, containskey, listkeys.
+=>IO folder : 
+io : bytestostream, close, createbytearray,read, skip, reset, stream to bytes, reader, string.
+=>JDBC Folder : 
+jdbc : getpoolinfo.
+=>List Folder : 
+list : appendtostringlist,doclist and stringlist to doclist, vector to array.
+=>Math Folder : 
+addfloats, addints,addintslist, addobjects, dividefloats, divideobjects, max,min, multiplyfloats, multiplyints, randomvalue,roundnum, subtract ints , floats.
+=> Packages Folder : 
+ActivatePackage , backup, disable, enable, install, recover, reload=package.
+=> PKI Folder : 
+pkcs : sign, verify.
+smime : createsigneddata, process signeddata, createencrytped data, process encrypted data.
+=> Publish Folder : 
