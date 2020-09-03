@@ -95,5 +95,35 @@ publish deliver, deliver&wait, envelope, publish&wait,reply, synctoBroker, waitf
 remote : invoke.
 gd : getstatus, invoke, recieve,start, send, submit, restart.
 => Replication Folder : 
+
 =>Scheduler Folder : 
 add=complextask,onetimetask,repeatingtask, canceltask,gettaskid,gettaskinfo, usertasklist, 
+=> Schema Folder : 
+Create XSD, validate, validatepipeline, w3c, datatypes,datastructures,xml,xsi.
+=> Security Folder : 
+security : clearkeyandchain,setkeyandchain, 
+enterpriseGateway : alertspec.
+keystore : getkeychain,getcertificates,sign.
+outbound : get,set,update,remove=password, list keys.
+pkcs : sign&verify.
+util : create,convert,destroysecurestring.
+xml : decrypt,encrypt,sign,verify=xml.
+=> SMIME Folder
+smime : create = certonlydata,encrypteddata,signeddata,
+        process = certonlydata,encrypteddata, signedandencrypteddata.
+        keystore = certonlydata,encrypteddata, signedandencrypteddata.
+=> SOAP Folder : 
+handler : add=bodyblock,faultblockheaderblock.
+          get=bodyblock,faultblock,headerblock,elementblock.
+processor : process message,  process,register=processor         
+schema : encoding,encding12,envelope,envelope12.
+utils : manyservices.
+wsa : submission=action,fault,from,replyto,relatesto,replyafter.
+wsrm : close,create,terminate=sequence.
+=> Storage Folder : 
+storage : add,closestore,deletesotore,get,keys,lock,put,remove,shutdown,startup,unlock.
+=> String Folder : 
+string : bytestostring,concat,HTMLDECODE,ENCODE,indexof,length,lookuptable,makestring,numericformat,objecttostring,padright,padleft,replace,substring,tokenize,toupper,tolower,trim.
+=> Sync Folder : 
+sync : notify,shutdown,wait.
+= > Synchronization Folder : 
