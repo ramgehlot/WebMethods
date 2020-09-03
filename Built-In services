@@ -90,3 +90,10 @@ ActivatePackage , backup, disable, enable, install, recover, reload=package.
 pkcs : sign, verify.
 smime : createsigneddata, process signeddata, createencrytped data, process encrypted data.
 => Publish Folder : 
+publish deliver, deliver&wait, envelope, publish&wait,reply, synctoBroker, waitforReply, notificationerror.
+=> Remote Folder : 
+remote : invoke.
+gd : getstatus, invoke, recieve,start, send, submit, restart.
+=> Replication Folder : 
+=>Scheduler Folder : 
+add=complextask,onetimetask,repeatingtask, canceltask,gettaskid,gettaskinfo, usertasklist, 
