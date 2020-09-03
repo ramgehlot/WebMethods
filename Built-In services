@@ -1,4 +1,4 @@
-WmArt- You use the elements in the art folder to manage adapter components, including connections, adapter services, listeners, and notifications.cations.
+WmArt- You use the elements in the art folder to manage adapter components, including connections, adapter services, listeners, and notifications.
 WmPublic-cache Folder : You use the elements in the cache folder to place data in a cache and retrieve it again later. 
 WmPublic-Client Folder : You use the elements in the client folder to formulate and submit requests to HTTP, FTP, SFTP, e-mail, and LDAP(LDAP stands for Lightweight Directory Access Protocol.) servers.
 WmPublic-Date Folder : You can use the elements in the date folder to generate and format date values.
