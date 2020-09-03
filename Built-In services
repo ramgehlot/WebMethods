@@ -131,3 +131,10 @@ synchronization.latch : openlatch,closelatch,isclosedlatch.
 synchronization.xref : create,delete,insert=xreference.,deletebyobjectid,getcanonicalkey.
 => Trigger Folder : 
 trigger : create,delete=Trigger,create,delete,enable,disable=JMSTriggers,Resume,retrieval=processing,Resume,retrieval=suspend. 
+=> VCS folder 
+vcs.admin : getUsers,removecurrentuser,removemultipleusers,setcurrentuser,setmultipleusers.
+=> XML Folder : 
+xml : documenttoXMLString,freeXMLnode,get=NextXMLNode,XMLNodeeltarator,NodeType, LoadEnhancedXMLNode,XMLnodetoDocument,XMLStringtoEnhancedDocument,StringtoXMLNode,
+=> XLST Folder : 
+transformations : TransformserialXML
+cache : remove all templates, remove template.
