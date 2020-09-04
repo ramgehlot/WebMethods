@@ -68,5 +68,13 @@ WebMethods Designer is used for :
 17.What is a JMS trigger?
  A JMS trigger is a trigger that receives messages from a destination (queue or topic) on a JMS provider and then processes those messages.
  
- 18.What does ART folder refers to ?
+18.What does ART folder refers to ?
  Art folder to manage adapter components, including connections, adapter services, listeners, and notifications.
+
+19. which folder has built-in services in webmethods ?
+WmPublic has built-in services provided with  add-on packages on webMethods Integration Server.
+
+20. List some of wmpublic sub-packages ?
+These folders reside in Wmpublic package : art,cache,client,date,db, document,event,flow,jdbc,math,list,security, string etc.
+ 
+21. 
