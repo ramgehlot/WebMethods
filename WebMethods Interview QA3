@@ -77,4 +77,7 @@ WmPublic has built-in services provided with  add-on packages on webMethods Inte
 20. List some of wmpublic sub-packages ?
 These folders reside in Wmpublic package : art,cache,client,date,db, document,event,flow,jdbc,math,list,security, string etc.
  
-21. 
+21. What does RFC stand for in webmethods Connection ?
+RFC stands for Remote Function Call. It is the standard SAP interface for communication with or between SAP systems.
+
+22.
