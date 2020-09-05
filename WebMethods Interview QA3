@@ -80,4 +80,18 @@ These folders reside in Wmpublic package : art,cache,client,date,db, document,ev
 21. What does RFC stand for in webmethods Connection ?
 RFC stands for Remote Function Call. It is the standard SAP interface for communication with or between SAP systems.
 
-22.
+22.What is a Flat File?
+Flat files present complex hierarchical structural data in a record–based storage format. The data in the flat file has been flattened  as a single logical record of application data.
+All flat files consist of a list of records containing fields and composites.
+
+23.What are Fields, Composites & records in a FlatFile ?
+Fields are  pieces of data, Composites contain multiple fields ,Records are sequences of fields and/or composites.
+
+24. What is a Flat File Schema?
+A flat file schema is the blueprint that contains the instructions for parsing or creating a flat file and is created as a namespace element in the Integration Server. This blueprint details the structure of the document, including delimiters, records, and repeated record structures.
+
+25. what are flat-file schema constraints ? 
+Structural constraints,
+Content type constraints
+Conditional constraints
+
