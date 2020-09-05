@@ -95,3 +95,7 @@ Structural constraints,
 Content type constraints
 Conditional constraints
 
+What is JMS Messaging in webmethods ?
+JMS, is a messaging system that implements the JMS message interfaces and provides administrative and control features. It supports routing and delivery of messages through the implementation of the webMethods Broker API for JMS on the client. 
+
+
