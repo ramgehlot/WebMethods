@@ -1,1 +1,14 @@
-The WebMethods Admin 
+The WebMethods Admin : The administratoris responsible forinstalling, configuring, and maintaining the webMethods Integration Server. 
+He or she is also responsible for ensuring the server is secure, available to clients, and running at peak performance.
+
+Typical Administrative Responsibilities : 
+- Installing and upgrading the server
+- Starting and stopping the server
+- Configuring server settings
+- Administering users and groups
+- Administering server security
+- Managing packages and services
+- Administering multiple instances of the server
+
+
+ 
