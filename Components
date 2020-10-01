@@ -1,7 +1,10 @@
 Integration Server
 Designer
 MyWebmethodsServer(MWS)-Terracotta, TradingNetworks.
-
+UniversalMessaging
+Broker
+DataBase(Embedded or External)
+DMZ(Demilitrlalized-Zone)
 
 
 
